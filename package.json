@@ -2,6 +2,13 @@
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ulises-codes/helper-functions.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -31,7 +38,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "helper-functions",
+  "name": "@ulises-codes/helper-functions",
   "author": "Ulises Himely",
   "module": "dist/helper-functions.esm.js",
   "size-limit": [
