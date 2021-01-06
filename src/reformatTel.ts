@@ -16,7 +16,9 @@ export function reformatTel(num: string): string {
   return formattedNumber;
 }
 
-export function reformatOnBlur(e: FocusEvent & { target: HTMLInputElement }) {
+export function reformatOnBlur(
+  e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>
+) {
   e.target.value = reformatTel(e.target.value);
 }
 
