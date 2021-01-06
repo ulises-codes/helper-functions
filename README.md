@@ -20,3 +20,10 @@
     import { hexToRGBA } from '@ulises-codes/helper-functions'
 
     const rgbaColor = hexToRGBA(hexColor, opacity)
+
+**Create a Random String**
+
+    import {createRandomString} from '@ulises-codes/helper-functions'
+
+    // Pass in the desired string length (default: 16)
+    const randomString = createRandomString(12)
