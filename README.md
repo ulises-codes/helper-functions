@@ -23,7 +23,13 @@
 
 **Create a Random String**
 
-    import {createRandomString} from '@ulises-codes/helper-functions'
+    import { createRandomString } from '@ulises-codes/helper-functions'
 
     // Pass in the desired string length (default: 16)
     const randomString = createRandomString(12)
+
+**Dedupe String Characters**
+
+    import { dedupeString } from '@ulises-codes/helper-functions'
+
+    const dedupedString = dedupeString('astringWithCharacters')
